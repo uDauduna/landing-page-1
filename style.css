@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    min-height: 100vh;
 }
 
 .header{
@@ -33,6 +34,18 @@ a{
     size: 18px;
     color: #e5e7eb;
 }
+
+.welcome-note{
+    size: 18px;
+    color: #e5e7eb;
+    max-width: 500px;
+}
+
+.sharing{
+    size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
 .header-logo{
     size: 24px;
     color: #f9faf8;
@@ -42,8 +55,50 @@ a{
 .content{
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
+    flex: 1;
+}
+.first-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: auto;
+    min-height: 400px;
+    
+}
+.second-block, .third-block, .forth-block{
+    display:flex;
+    flex: auto;
+    min-height: 400px;
+}
+.second-block{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.random-info{
+    color: #1f2937;
+    font-weight: 900;
+}
+.second-card{
+    display: flex;
 }
 
+.third-block{
+    background-color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 12px 28px;
+    size:18px;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    text-align: center;
+    
+}
+.sharing-photo{
+    height: 200px;
+    border-radius: 16px;
+}
