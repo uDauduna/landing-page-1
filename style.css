@@ -86,6 +86,21 @@ a{
 
 .third-block{
     background-color: #e5e7eb;
+    flex-direction: column;
+}
+.testimonial{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+
+}
+.testifier{
+    font-weight: bold;
+
+}
+.main{
+    background-color: #3882f6;
 }
 
 button{
@@ -93,9 +108,12 @@ button{
     padding: 12px 28px;
     size:18px;
     color: white;
-    border: none;
     border-radius: 16px;
     text-align: center;
+    height: fit-content;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
     
 }
 .sharing-photo{
